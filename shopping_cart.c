@@ -17,9 +17,10 @@ scanf("%f",&price);
 printf("How many would you like to buy? ");
 scanf("%d",&quantity);
 total=price*quantity;
-printf("You have selected %d of %sat a price of %.2f%c each.\n",quantity,item,price,currency);
+printf("You have selected %d of %s at a price of %.2f%c each.\n",quantity,item,price,currency);
 printf("The total cost is: %.2f%c\n",total,currency);
 
 return 0;
 
 }
+
