@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 int main() {
-char item[50];
+char item[50]="";
 int quantity=0;
 float price=0.0f;
 float total=0.0f;
@@ -21,4 +21,5 @@ printf("You have selected %d of %sat a price of %.2f%c each.\n",quantity,item,pr
 printf("The total cost is: %.2f%c\n",total,currency);
 
 return 0;
+
 }
